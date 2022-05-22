@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>steam_client</ShortName>
+  <DisplayName>S1eam</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\Steam</InstallDirectory>
+  <StreamingCmdLine>Steam.exe</StreamingCmdLine>
+  <Image>Steam.exe</Image>
+  <StreamingAutomatedLaunch>0</StreamingAutomatedLaunch>
+  <Distributor>Steam</Distributor>
+  <Version>grid-bundle</Version>
+</Application>

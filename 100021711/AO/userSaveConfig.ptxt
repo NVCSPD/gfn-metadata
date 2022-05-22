@@ -1,0 +1,76 @@
+# ===============================
+# Scraper tool configuration file
+# ===============================
+
+checksum: false
+
+# Name of user that we look for
+# this name will be used for accessing registry HKEY_CURRENT_USER branch
+# and normalization of env variables %USERPROFILE%, %USERNAME%
+targetWindowsUserName: "Kiosk"
+
+storage{
+	snapshotPath: "C:\\asgard\\services\\AutoOnboarder\\snapshot"
+	baselinePath: "C:\\asgard\\services\\AutoOnboarder\\baseline"
+}
+
+##########################
+#                        #
+#      Target Files      #
+#                        #
+##########################
+
+includePaths {
+	path: "C:\\Program Files (x86)\\Steam\\userdata\\<[0-9]+>\\config\\<.*\\.vdf>"
+	path: "C:\\Program Files (x86)\\Steam\\config\\<.*\\.vdf>"
+
+	# Appcache to avoid Steamworks Common Redistributale issue
+    # Might lead to Steam cache issues, game version might be downgraded
+	# path: "C:\\Program Files (x86)\\Steam\\appcache\\appinfo.vdf"
+	# path: "C:\\Program Files (x86)\\Steam\\appcache\\packageinfo.vdf"
+
+	# App ID #7 is the steam browser's settings
+	path: "C:\\Program Files (x86)\\Steam\\userdata\\<[0-9]+>\\7\\remotecache.vdf"
+	path: "C:\\Program Files (x86)\\Steam\\userdata\\<[0-9]+>\\7\\remote\\sharedconfig.vdf"
+
+	# Will save every file under the steam root folder which starts with "ssfn"
+	path: "C:\\Program Files (x86)\\Steam\\<ssfn.+>"
+
+	# Will save every music database file, we need this to prevent Steam Client
+	# from scanning game folders recursively on every session start
+	path: "C:\\Program Files (x86)\\Steam\\music\\_database\\<.+db>"
+
+	#Steam cloud saves chache
+	path: "C:\\Program Files (x86)\\Steam\\userdata\\<[0-9]+>\\<[0-9]+>\\remotecache.vdf"
+
+	#Steam Controller Config
+	path: "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\241100\\<[0-9]+>\\<.*\\.bin>"
+	path: "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\appworkshop_241100.acf"
+
+	#Paths to legacy Steam Input Configs
+	path: "C:\\Program Files (x86)\\Steam\\userdata\\<[0-9]+>\\241100\\<.*\\.vdf>"
+	path: "C:\\Program Files (x86)\\Steam\\userdata\\<[0-9]+>\\241100\\remote\\<.*\\.vdf>"
+
+	#Paths to Steam Input Configs
+	path: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Steam Controller Configs\\<[0-9]+>\\config\\<.*\\.vdf>"
+	path: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Steam Controller Configs\\<[0-9]+>\\config\\<[0-9]+>\\<.*\\.vdf>"
+	
+}
+
+excludePaths {
+    path: "C:\\Program Files (x86)\\Steam\\userdata\\<[0-9]+>\\config\\shortcuts.vdf"
+}
+
+##########################
+#                        #
+#   Target Registry      #
+#                        #
+##########################
+
+regincludePaths {
+	path: "HKEY_CURRENT_USER\\Software\\Valve\\"
+}
+
+regexcludePaths {
+
+}

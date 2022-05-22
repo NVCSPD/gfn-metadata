@@ -1,0 +1,45 @@
+{
+  "Privileges": "admin",
+  "GameData": [
+    {
+      "VersionName": "grid-bundle",
+      "StreamingDisplayName": "Unravel Two - Origin",
+      "UniqueId": 100204311,
+      "StreamingCaption": "Unravel Two - Origin",
+      "StreamingClassName": "Unravel Two - Origin",
+      "StreamingCommandLine": "UnravelTwo.exe",
+      "IsAutomatedLaunch": 0,
+      "IsAutomatedExit": 0,
+      "ConsiderAsMultiExecutable": 1,
+      "DefaultStreamingMode": "1280x720@60",
+      "DefaultConsoleMode": "1920x1080@60",
+      "DefaultResolution": "1280x720",
+      "GridExpectedLaunchTimeInSeconds": 120,
+      "Distributor": "Origin",
+	  "PrimaryLauncher": 100024411,
+      "GameProcesses": [
+        {
+          "GameProcess": "UnravelTwo.exe"
+        },
+        {
+          "GameProcess": "UnravelTwo_trial.exe"
+        },
+        {
+          "GameProcess": "Origin.exe"
+        },
+        {
+          "GameProcess": "Originthinsetupinternal.exe"
+        }
+      ]
+    }
+  ],
+  "MetaData": {
+    "ControlSchemes": [
+      {
+        "ControlScheme": "MultiGamepad"
+      }
+    ],
+    "ControllerIDScheme": "Any",
+    "ControlHotPlugSupport": "Yes"
+  }
+}

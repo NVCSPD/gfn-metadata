@@ -1,0 +1,3 @@
+launchasadmin = 0
+gameRootPath = "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\unravel_two_steam"
+scProcessName = unraveltwo.exe

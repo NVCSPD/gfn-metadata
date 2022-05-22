@@ -1,0 +1,46 @@
+{
+  "Privileges": "admin",
+  "GameData": [
+    {
+      "VersionName": "grid-bundle",
+      "StreamingDisplayName": "Origin",
+      "UniqueId": 100024411,
+      "StreamingCaption": "Origin",
+      "StreamingClassName": "Origin",
+      "StreamingCommandLine": "Origin.exe",
+      "IsAutomatedLaunch": 0,
+      "IsAutomatedExit": 1,
+      "DefaultStreamingMode": "1280x720@60",
+      "DefaultConsoleMode": "1920x1080@60",
+      "DefaultResolution": "1280x720",
+      "ConsiderAsMultiExecutable": 1,
+      "Distributor": "Origin",
+      "GridExpectedLaunchTimeInSeconds": 120,
+      "GameProcesses": [
+        {
+          "GameProcess": "Origin.exe"
+        },
+        {
+          "GameProcess": "ActivationUI.exe"
+        }
+      ],
+      "TrayItems": [
+        {
+          "Name": "Origin",
+          "ProcessName": "Origin.exe",
+          "WindowClass": "Qt5QWindowIcon",
+          "AllowRestore": 1
+        }
+      ]
+    }
+  ],
+  "MetaData": {
+    "ControlSchemes": [
+      {
+        "ControlScheme": "MultiGamepad"
+      }
+    ],
+    "ControllerIDScheme": "Any",
+    "ControlHotPlugSupport": "Yes"
+  }
+}

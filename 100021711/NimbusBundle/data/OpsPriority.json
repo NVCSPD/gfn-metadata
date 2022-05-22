@@ -1,0 +1,508 @@
+{
+   "instanceTypesData" : [
+      {
+         "instanceType" : "gt10_2.br10_small",
+         "rtxSupport" : false,
+         "supportedStreamingModes" : [
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1080",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1080",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1050",
+               "widthInPixels" : "1680"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1050",
+               "widthInPixels" : "1680"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1024",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1024",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1440"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1440"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1366"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1366"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "800",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "800",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "834",
+               "widthInPixels" : "1112"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "834",
+               "widthInPixels" : "1112"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "720",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "720",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1024"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1024"
+            }
+         ]
+      },
+      {
+         "instanceType" : "g6.half",
+         "rtxSupport" : false,
+         "supportedStreamingModes" : [
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1080",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1080",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1050",
+               "widthInPixels" : "1680"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1050",
+               "widthInPixels" : "1680"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1024",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1024",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1440"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1440"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1366"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1366"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "800",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "800",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "834",
+               "widthInPixels" : "1112"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "834",
+               "widthInPixels" : "1112"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "720",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "720",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1024"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1024"
+            }
+         ]
+      },
+      {
+         "instanceType" : "gp40_1.g10_large",
+         "rtxSupport" : false,
+         "supportedStreamingModes" : [
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1080",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1080",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1050",
+               "widthInPixels" : "1680"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1050",
+               "widthInPixels" : "1680"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1024",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1024",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1440"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1440"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1366"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1366"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "800",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "800",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "834",
+               "widthInPixels" : "1112"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "834",
+               "widthInPixels" : "1112"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "720",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "720",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1024"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1024"
+            }
+         ]
+      },
+      {
+         "instanceType" : "g4.2xlarge",
+         "rtxSupport" : false,
+         "supportedStreamingModes" : [
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1080",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1080",
+               "widthInPixels" : "1920"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1200",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1050",
+               "widthInPixels" : "1680"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1050",
+               "widthInPixels" : "1680"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1600"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "1024",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "1024",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1440"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "900",
+               "widthInPixels" : "1440"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1366"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1366"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "800",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "800",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "834",
+               "widthInPixels" : "1112"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "834",
+               "widthInPixels" : "1112"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "720",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "720",
+               "widthInPixels" : "1280"
+            },
+            {
+               "framesPerSecond" : "60",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1024"
+            },
+            {
+               "framesPerSecond" : "30",
+               "heightInPixels" : "768",
+               "widthInPixels" : "1024"
+            }
+         ]
+      }
+   ]
+}

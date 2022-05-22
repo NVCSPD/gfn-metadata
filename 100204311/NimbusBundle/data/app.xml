@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>unravel_two_origin</ShortName>
+  <DisplayName>Unravel Two - Origin</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\NVIDIA_Grid_Bundle\unravel_two_origin</InstallDirectory>
+  <StreamingCmdLine>UnravelTwo.exe</StreamingCmdLine>
+  <Image>Origin.exe</Image>
+  <Image>Originthinsetupinternal.exe</Image>
+  <Image>UnravelTwo.exe</Image>
+  <Image>UnravelTwo_trial.exe</Image>
+  <StreamingAutomatedLaunch>0</StreamingAutomatedLaunch>
+  <Distributor>Origin</Distributor>
+  <Version>grid-bundle</Version>
+</Application>

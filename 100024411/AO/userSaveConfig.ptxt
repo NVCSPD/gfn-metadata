@@ -1,0 +1,52 @@
+# ===============================
+# Scraper tool configuration file
+# ===============================
+
+checksum: false
+
+# Name of user that we look for
+# this name will be used for accessing registry HKEY_CURRENT_USER branch
+# and normalization of env variables %USERPROFILE%, %USERNAME%
+targetWindowsUserName: "Kiosk"
+
+storage{
+	snapshotPath: "C:\\asgard\\services\\AutoOnboarder\\snapshot"
+	baselinePath: "C:\\asgard\\services\\AutoOnboarder\\baseline"
+}
+
+##########################
+#                        #
+#      Target Files      #
+#                        #
+##########################
+
+includePaths {
+	path: "C:\\ProgramData\\Origin\\Telemetry\\"
+	path: "C:\\ProgramData\\Origin\\local.xml"
+	path: "C:\\ProgramData\\Origin\\<.*\\.olc>"
+	path: "C:\\ProgramData\\Origin\\production.wad"
+	path: "C:\\ProgramData\\Electronic Arts\\EA Services\\License\\"
+	path: "%USERPROFILE%\\AppData\\Roaming\\Origin\\"
+	path: "%localappdata%\\Origin\\Cloud Saves\\"
+	path: "%USERPROFILE%\\AppData\\Local\\Origin\\Origin\\QtWebEngine\\Default\\"
+}
+
+excludePaths {
+  path: "%USERPROFILE%\\AppData\\Roaming\\Origin\\ConsolidatedCache\\"
+  path: "%USERPROFILE%\\AppData\\Roaming\\Origin\\Logs\\"
+  path: "%USERPROFILE%\\AppData\\Roaming\\Origin\\NucleusCache\\"
+}
+
+##########################
+#                        #
+#   Target Registry      #
+#                        #
+##########################
+
+regincludePaths {
+	path: "HKEY_CURRENT_USER\\SOFTWARE\\WOW6432Node\\OriginHwInfo\\"
+	path: "HKEY_CURRENT_USER\\SOFTWARE\\OriginHwInfo\\"
+}
+
+regexcludePaths {
+}

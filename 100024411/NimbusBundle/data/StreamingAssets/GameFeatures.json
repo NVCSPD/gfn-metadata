@@ -1,0 +1,82 @@
+{
+    "default_language": "en_US",
+    "multilanguage": [
+        {
+            "code": "en_US",
+            "speech": "UNAVAILABLE",
+            "subtitles": "UNAVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "fr_FR",
+            "speech": "UNAVAILABLE",
+            "subtitles": "UNAVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "de_DE",
+            "speech": "UNAVAILABLE",
+            "subtitles": "UNAVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "es_ES",
+            "speech": "UNAVAILABLE",
+            "subtitles": "UNAVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "it_IT",
+            "speech": "UNAVAILABLE",
+            "subtitles": "UNAVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "ru_RU",
+            "speech": "UNAVAILABLE",
+            "subtitles": "UNAVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "pl_PL",
+            "speech": "UNAVAILABLE",
+            "subtitles": "UNAVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "pt_BR",
+            "speech": "UNAVAILABLE",
+            "subtitles": "UNAVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "zh_TW",
+            "speech": "UNAVAILABLE",
+            "subtitles": "UNAVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "ko_KR",
+            "speech": "UNAVAILABLE",
+            "subtitles": "UNAVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "ja_JP",
+            "speech": "UNAVAILABLE",
+            "subtitles": "UNAVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        }
+    ]
+}

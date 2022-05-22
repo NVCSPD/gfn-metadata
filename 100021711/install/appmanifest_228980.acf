@@ -1,0 +1,183 @@
+"AppState"
+{
+	"appid"		"228980"
+	"Universe"		"1"
+	"name"		"Steamworks Common Redistributables"
+	"StateFlags"		"4"
+	"installdir"		"Steamworks Shared"
+	"LastUpdated"		"1613440138"
+	"UpdateResult"		"0"
+	"SizeOnDisk"		"0"
+	"buildid"		"6244368"
+	"LastOwner"		"76561198822850087"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"228981"
+		{
+			"manifest"		"7613356809904826842"
+		}
+		"228982"
+		{
+			"manifest"		"6413394087650432851"
+		}
+		"228983"
+		{
+			"manifest"		"8124929965194586177"
+		}
+		"228984"
+		{
+			"manifest"		"2547553897526095397"
+		}
+		"228985"
+		{
+			"manifest"		"3966345552745568756"
+		}
+		"228986"
+		{
+			"manifest"		"8782296191957114623"
+		}
+		"228987"
+		{
+			"manifest"		"4302102680580581867"
+		}
+		"228988"
+		{
+			"manifest"		"8754764360237113396"
+		}
+		"228990"
+		{
+			"manifest"		"1829726630299308803"
+		}
+		"229000"
+		{
+			"manifest"		"4622705914179893434"
+		}
+		"229001"
+		{
+			"manifest"		"4049573910112143457"
+		}
+		"229002"
+		{
+			"manifest"		"7260605429366465749"
+		}
+		"229003"
+		{
+			"manifest"		"8740933542064151477"
+		}
+		"229004"
+		{
+			"manifest"		"5220958916987797232"
+		}
+		"229005"
+		{
+			"manifest"		"7992454656023763365"
+		}
+		"229006"
+		{
+			"manifest"		"1784011429307107530"
+		}
+		"229007"
+		{
+			"manifest"		"4477590687906973371"
+		}
+		"229010"
+		{
+			"manifest"		"3476809898398882586"
+		}
+		"229011"
+		{
+			"manifest"		"392351049714934122"
+		}
+		"229012"
+		{
+			"manifest"		"4353723233161159493"
+		}
+		"229020"
+		{
+			"manifest"		"5799761707845834510"
+		}
+		"229030"
+		{
+			"manifest"		"1043465440436835055"
+		}
+		"229031"
+		{
+			"manifest"		"7746630274301172884"
+		}
+		"229032"
+		{
+			"manifest"		"3616495131483866412"
+		}
+		"229033"
+		{
+			"manifest"		"2059065101492814639"
+		}
+	}
+	"UserConfig"
+	{
+		"betakey"		"public"
+	}
+	"InstallScripts"
+	{
+		"228981"		"_CommonRedist\vcredist\2005\installscript.vdf"
+		"228982"		"_CommonRedist\vcredist\2008\installscript.vdf"
+		"228983"		"_CommonRedist\vcredist\2010\installscript.vdf"
+		"228984"		"_CommonRedist\vcredist\2012\installscript.vdf"
+		"228985"		"_CommonRedist\vcredist\2013\installscript.vdf"
+		"228986"		"_CommonRedist\vcredist\2015\installscript.vdf"
+		"228987"		"_CommonRedist\vcredist\2017\installscript.vdf"
+		"228988"		"_CommonRedist\vcredist\2019\installscript.vdf"
+		"228990"		"_CommonRedist\DirectX\Jun2010\installscript.vdf"
+		"229000"		"_CommonRedist\DotNet\3.5\installscript.vdf"
+		"229001"		"_CommonRedist\DotNet\3.5 Client Profile\installscript.vdf"
+		"229002"		"_CommonRedist\DotNet\4.0\installscript.vdf"
+		"229003"		"_CommonRedist\DotNet\4.0 Client Profile\installscript.vdf"
+		"229004"		"_CommonRedist\DotNet\4.5.2\installscript.vdf"
+		"229005"		"_CommonRedist\DotNet\4.6\installscript.vdf"
+		"229006"		"_CommonRedist\DotNet\4.7\installscript.vdf"
+		"229007"		"_CommonRedist\DotNet\4.8\installscript.vdf"
+		"229010"		"_CommonRedist\XNA\3.0\installscript.vdf"
+		"229011"		"_CommonRedist\XNA\3.1\installscript.vdf"
+		"229012"		"_CommonRedist\XNA\4.0\installscript.vdf"
+		"229020"		"_CommonRedist\OpenAL\2.0.7.0\installscript.vdf"
+		"229030"		"_CommonRedist\PhysX\8.09.04\installscript.vdf"
+		"229031"		"_CommonRedist\PhysX\9.12.1031\installscript.vdf"
+		"229032"		"_CommonRedist\PhysX\9.13.1220\installscript.vdf"
+		"229033"		"_CommonRedist\PhysX\9.14.0702\installscript.vdf"
+	}
+	"MountedDepots"
+	{
+		"228981"		"7613356809904826842"
+		"228982"		"6413394087650432851"
+		"228983"		"8124929965194586177"
+		"228984"		"2547553897526095397"
+		"228985"		"3966345552745568756"
+		"228986"		"8782296191957114623"
+		"228987"		"4302102680580581867"
+		"228988"		"8754764360237113396"
+		"228990"		"1829726630299308803"
+		"229000"		"4622705914179893434"
+		"229001"		"4049573910112143457"
+		"229002"		"7260605429366465749"
+		"229003"		"8740933542064151477"
+		"229004"		"5220958916987797232"
+		"229005"		"7992454656023763365"
+		"229006"		"1784011429307107530"
+		"229007"		"4477590687906973371"
+		"229010"		"3476809898398882586"
+		"229011"		"392351049714934122"
+		"229012"		"4353723233161159493"
+		"229020"		"5799761707845834510"
+		"229030"		"1043465440436835055"
+		"229031"		"7746630274301172884"
+		"229032"		"3616495131483866412"
+		"229033"		"2059065101492814639"
+	}
+}

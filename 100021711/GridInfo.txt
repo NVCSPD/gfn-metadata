@@ -1,0 +1,10 @@
+launchasadmin = 0
+gameRootPath = "C:\\Program Files (x86)\\Steam"
+gameLogPath = C:\Program Files (x86)\Steam\logs\*.*
+userdataSizeLimit = 104857600
+gfnSdkDataRequired = 1
+whitelistedUriProtocols = "steam:"
+pathToProtect = "GfnRuntimeSdk.dll"
+modPath = "c:\\program files (x86)\\steam\\userdata"
+modPath = "c:\\program files (x86)\\steam\\steamapps\\workshop"
+modPath = "c:\\program files (x86)\\steam\\steamapps\\content"
