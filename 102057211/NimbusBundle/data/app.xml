@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>easy_anti_cheat_gfn</ShortName>
+  <DisplayName>EASY ANTI-CHEAT (GFN)</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\EasyAntiCheat\</InstallDirectory>
+  <StreamingCmdLine>start "C:\Program Files (x86)\EasyAntiCheat" "EasyAntiCheat.exe"</StreamingCmdLine>
+  <Image>EasyAntiCheat.exe</Image>
+  <StreamingAutomatedLaunch>0</StreamingAutomatedLaunch>
+  <Distributor>Standalone</Distributor>
+  <Version>grid-bundle</Version>
+</Application>

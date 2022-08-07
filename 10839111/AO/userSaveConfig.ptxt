@@ -1,0 +1,47 @@
+# ===============================
+# Scraper tool configuration file
+# ===============================
+
+checksum: false
+
+# Name of user that we look for
+# this name will be used for accessing registry HKEY_CURRENT_USER branch
+# and normalization of env variables %USERPROFILE%, %USERNAME%
+targetWindowsUserName: "Kiosk"
+
+storage{
+	snapshotPath: "C:\\asgard\\services\\AutoOnboarder\\snapshot"
+	baselinePath: "C:\\asgard\\services\\AutoOnboarder\\baseline"
+}
+
+##########################
+#                        #
+#      Target Files      #
+#                        #
+##########################
+
+includePaths {
+    path: "%USERPROFILE%\\Documents\\My Games\\WarThunder\\"
+    path: "C:\\ProgramData\\Gaijin\\downloads\\warthunder\\"
+    path: "%USERPROFILE%\\AppData\\Local\\Gaijin\\NetAgent\\targets\\"
+    path: "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\war_thunder_gfn_pc\\WarThunder\\config.blk"
+    path: "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\war_thunder_gfn_pc\\WarThunder\\content\\warthunder.blk"
+    path: "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\war_thunder_gfn_pc\\WarThunder\\cache\\pubcfg\\production\\network.blk"
+}
+
+excludePaths {
+}
+
+##########################
+#                        #
+#   Target Registry      #
+#                        #
+##########################
+
+regincludePaths {
+  path: "HKEY_CURRENT_USER\\Software\\Gaijin\\WarThunder\\"
+}
+
+regexcludePaths {
+
+}

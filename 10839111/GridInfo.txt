@@ -1,0 +1,6 @@
+launchasadmin = 0
+gameRootPath = "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\war_thunder_gfn_pc"
+scProcessName = aces.exe
+gameLogPath = "C:\\Users\\kiosk\\AppData\\Roaming\\EasyAntiCheat\\*.log"
+gameLogPath = "C:\\Users\\kiosk\\AppData\\Roaming\\EasyAntiCheat\\45\\*.log"
+gameLogPath = "C:\\Users\\kiosk\\AppData\\Local\\WarThunder\\.launcher_log\\*.txt"

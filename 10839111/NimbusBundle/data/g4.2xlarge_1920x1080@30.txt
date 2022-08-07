@@ -1,0 +1,38 @@
+Resolution;1920x1080;ENUM
+Terrain Displacement;33;ENUM
+Shadows;On;ENUM
+Trees Range;50;INT
+VSync;Off;ENUM
+Lens Flares;Off;ENUM
+Detailed Foliage;Off;ENUM
+Render;Auto;ENUM
+Old Videocards Support;Off;ENUM
+Reflections Quality;50%;ENUM
+Shadows on Effects;Off;ENUM
+Terrain Quality;50;ENUM
+Foam Quality;Medium;ENUM
+Shadow Quality;Medium;ENUM
+SSAA;None;ENUM
+Tree Anti-aliasing;On;ENUM
+Grass Range;0;INT
+Soft Particles;On;ENUM
+Anisotropy;8x;ENUM
+Haze;On;ENUM
+Clouds Quality(in Flights);High;ENUM
+Far Terrain Details;On;ENUM
+Water Quality;Medium;ENUM
+Texture Quality;Medium;ENUM
+Particle Density;25;INT
+Clouds Quality(on Ground);6;INT
+Physics Animation for Suspension Model;On;ENUM
+Physics Quality;40;ENUM
+Advanced Shore;On;ENUM
+Render Resolution;0;ENUM
+Anti-aliasing;FXAA;ENUM
+Terrain Deformation;High;ENUM
+SSAO Quality;50;ENUM
+Small Object Shadows;50;ENUM
+Objects Shadows;Off;ENUM
+Display Mode;Full-screen;ENUM
+Tire Tracks;High;ENUM
+Graphics Quality;Custom;ENUM

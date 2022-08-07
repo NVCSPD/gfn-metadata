@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>war_thunder_gfn_pc</ShortName>
+  <DisplayName>War Thunder</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\NVIDIA_Grid_Bundle\war_thunder_gfn_pc\WarThunder</InstallDirectory>
+  <StreamingCmdLine>launcher.exe</StreamingCmdLine>
+  <Image>launcher.exe</Image>
+  <Image>aces.exe</Image>
+  <Image>eac_launcher.exe</Image>
+  <StreamingAutomatedLaunch>0</StreamingAutomatedLaunch>
+  <Distributor>Standalone</Distributor>
+  <Version>grid-bundle</Version>
+</Application>
