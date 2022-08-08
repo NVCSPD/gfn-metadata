@@ -1,0 +1,56 @@
+Windows Registry Editor Version 5.00
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\com.epicgames.eos]
+@="Epic Online Services Link"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\com.epicgames.eos\DefaultIcon]
+@="\"C:\\Program Files (x86)\\Epic Games\\Epic Online Services\\EpicOnlineServicesUserHelper.exe\",1"
+
+[HKEY_CLASSES_ROOT\com.epicgames.eos\shell]
+@="open"
+
+[HKEY_CLASSES_ROOT\com.epicgames.eos\shell\open]
+
+[HKEY_CLASSES_ROOT\com.epicgames.eos\shell\open\command]
+@="\"C:\\Program Files (x86)\\Epic Games\\Epic Online Services\\EpicOnlineServicesUserHelper.exe\" %1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\com.epicgames.eos]
+@="Epic Online Services Link"
+"URL Protocol"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\com.epicgames.eos\DefaultIcon]
+@="\"C:\\Program Files (x86)\\Epic Games\\Epic Online Services\\EpicOnlineServicesUserHelper.exe\",1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\com.epicgames.eos\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\com.epicgames.eos\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\com.epicgames.eos\shell\open\command]
+@="\"C:\\Program Files (x86)\\Epic Games\\Epic Online Services\\EpicOnlineServicesUserHelper.exe\" %1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Epic Games\EOS]
+"MSIProductCode"="{758842D2-1538-4008-A8E3-66F65A061C52}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Epic Games\EOS\InstallHelper]
+"Path"="C:\\Program Files (x86)\\Epic Games\\Epic Online Services\\EpicOnlineServicesInstallHelper.exe"
+"Version"="1.0.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Epic Games\EOS\MainService]
+"Version"="2.3.0-19243460+++Portal+Release-Live"
+"CrashReportClientPath"="C:\\Program Files (x86)\\Epic Games\\Epic Online Services\\Engine\\Binaries\\Win32\\CrashReportClient.exe"
+"Path"="C:\\Program Files (x86)\\Epic Games\\Epic Online Services\\service\\EpicOnlineServicesHost.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Epic Games\EOS\RegisteredProducts]
+"Manual"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Epic Games\EOS\UIHelper]
+"Path"="C:\\Program Files (x86)\\Epic Games\\Epic Online Services\\EpicOnlineServicesUIHelper.exe"
+"Version"="1.0.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Epic Games\EOS\UserHelper]
+"Path"="C:\\Program Files (x86)\\Epic Games\\Epic Online Services\\EpicOnlineServicesUserHelper.exe"
+"Version"="1.0.0"

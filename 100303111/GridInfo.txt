@@ -1,0 +1,4 @@
+launchasadmin = 0
+enableAllOwnershipChecks = 0
+gameRootPath = "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\epic_games_launcher_gfn_pc"
+gameLogPath = C:\Users\kiosk\AppData\Local\EpicGamesLauncher\Saved\Logs\*.*

@@ -1,0 +1,15 @@
+Resolution;1280x800;ENUM
+Allow Multithreaded Rendering;On;ENUM
+Anti-aliasing & Super Resolution;Fast Approximate Anti-aliasing;ENUM
+Shadows;Off;ENUM
+Post-processing;High;ENUM
+Meshes;Low;ENUM
+View Distance;Far;ENUM
+Textures;Medium;ENUM
+3D Resolution;100.000;FLOAT
+Rendering Mode;Performance;ENUM
+Display Mode;Full-screen;ENUM
+Motion Blur;On;ENUM
+VSync;Off;ENUM
+Frame Rate Limit;60;ENUM
+Effects;High;ENUM

@@ -1,0 +1,12 @@
+launchasadmin = 0
+gameRootPath = "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\fortnite_gfn_pc"
+gameLogPath = "C:\\Users\\kiosk\\AppData\\Local\\FortniteGame\\Saved\\Logs\\"
+gameLogPath = "C:\\Users\\kiosk\\AppData\\Local\\FortniteGame\\Saved\\Config\\"
+gameLogPath = "C:\\Users\\kiosk\\AppData\\Local\\EpicGamesLauncher\\Saved\\Logs\\"
+gameLogPath = "C:\\Users\\kiosk\\AppData\\Local\\EpicGamesLauncher\\Saved\\Config\\Windows\\" 
+appReadyEnabled = 1
+appReadyTimeoutSec = 40
+scprocessname = fortniteclient-win64-shipping.exe
+maxAppLaunchTimeoutMinutes = 0
+throttleprocess = FortniteClient-Win64-Shipping.exe
+monitorPlatformLaunch = 0

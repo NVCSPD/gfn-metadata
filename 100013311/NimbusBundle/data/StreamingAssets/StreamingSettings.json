@@ -1,0 +1,67 @@
+{
+  "Privileges": "admin",
+  "GameData": [
+    {
+      "VersionName": "grid-bundle",
+      "StreamingDisplayName": "Fortnite",
+      "UniqueId": 100013311,
+      "StreamingCaption": "Fortnite",
+      "StreamingClassName": "UnrealWindow",
+      "StreamingCommandLine": "start \"\" \"com.epicgames.launcher://apps/Fortnite?action=launch&silent=true\"",
+      "LaunchOptions": {
+    "Prewarm": {
+      "Command": "FortniteLauncher.exe -gfn.wait -fullscreen -SaveToUserDir -noepicportal",
+          "Directory": "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\fortnite_gfn_pc\\Fortnite\\FortniteGame\\Binaries\\Win64"
+        },
+        "SSO": {
+          "Command": "FortniteLauncher.exe -gfn.wait -fullscreen -SaveToUserDir -noepicportal",
+          "Directory": "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\fortnite_gfn_pc\\Fortnite\\FortniteGame\\Binaries\\Win64"
+        },
+        "SSO TOUCH_FRIENDLY": {
+          "Command": "FortniteLauncher.exe -gfn.wait -fullscreen -SaveToUserDir -noepicportal",
+          "Directory": "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\fortnite_gfn_pc\\Fortnite\\FortniteGame\\Binaries\\Win64"
+        },
+        "SSO GAMEPAD_FRIENDLY": {
+          "Command": "FortniteLauncher.exe -gfn.wait -fullscreen -SaveToUserDir -noepicportal",
+          "Directory": "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\fortnite_gfn_pc\\Fortnite\\FortniteGame\\Binaries\\Win64"
+        },
+        "TOUCH_FRIENDLY": {
+          "Command": "FortniteLauncher.exe -gfn.wait -fullscreen -SaveToUserDir -noepicportal",
+          "Directory": "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\fortnite_gfn_pc\\Fortnite\\FortniteGame\\Binaries\\Win64"
+        }
+      },
+      "IsAutomatedLaunch": 1,
+      "IsAutomatedExit": 1,
+      "DefaultStreamingMode": "1280x720@60",
+      "DefaultConsoleMode": "1920x1080@60",
+      "DefaultResolution": "1280x720",
+      "GridExpectedLaunchTimeInSeconds": 120,
+	  "VoiceChatSupport": "Yes",
+      "Distributor": "EpicGames",
+	  "UseClientSideCursor": 1,
+	  "ForceEarlyStreaming": 1,
+	  "KeepFocusOnProcess": "FortniteClient-Win64-Shipping.exe",
+      "GameProcesses": [
+        {
+          "GameProcess": "FortniteClient-Win64-Shipping.exe",
+          "Type": "Application"
+        },
+        {
+          "GameProcess": "EpicGamesLauncher.exe",
+          "Type": "Platform"
+        }
+      ],
+       "SdkParameters": {
+        "gt10_2.br10_xsmall": {
+          "deviceprofile": "WindowsClient_FNGM"
+        },
+        "g6.half": {
+          "deviceprofile": "WindowsClient_FNGM"
+        }
+      },
+      "DoNotStopOnExitCodes": [100, 101],
+	  "RestartAppOnExitCodes": [105],
+    "DoNotRequirePlatformRunning": 1
+    }
+  ]
+}

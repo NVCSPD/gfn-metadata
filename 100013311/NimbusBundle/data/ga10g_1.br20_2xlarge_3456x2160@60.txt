@@ -1,0 +1,15 @@
+Resolution;3456x2160;ENUM
+Allow Multithreaded Rendering;On;ENUM
+Anti-aliasing & Super Resolution;Temporal Anti-Aliasing;ENUM
+Shadows;Off;ENUM
+Post-processing;Low;ENUM
+Meshes;Low;ENUM
+View Distance;Far;ENUM
+Textures;High;ENUM
+3D Resolution;100.000;FLOAT
+Rendering Mode;DirectX 12;ENUM
+Display Mode;Full-screen;ENUM
+Motion Blur;On;ENUM
+VSync;Off;ENUM
+Frame Rate Limit;120;ENUM
+Effects;Low;ENUM

@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\htmlfile\shell\open\command]
+@="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\http\shell\open\command]
+@="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\https\shell\open\command]
+@="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\IE.HTTP\shell\open\command]
+@="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\IE.HTTPS\shell\open\command]
+@="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" \"%1\""

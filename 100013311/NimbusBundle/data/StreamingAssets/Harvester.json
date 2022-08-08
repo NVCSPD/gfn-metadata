@@ -1,0 +1,19 @@
+{
+	"Includes": [ "Credentials" ],
+	"AutoExitPathPattern": "C:\\apps\\metadata\\100013311\\NimbusBundle\\data\\StreamingAssets\\automated_exit_original.exe",
+	"UsePerfmon": true,
+	"Items": [
+		{
+			"Paths": [ "C:\\Temp\\*.blg", "C:\\Temp\\*.csv" ],
+			"Target": "{id}/{sessionId}/PerfMon",
+			"Credentials": "perf-data"
+		},
+		{
+			"Paths": [
+				"C:\\Users\\kiosk\\Documents\\NvFraps"
+			],
+			"Target": "{id}/{sessionId}/FlowCat",
+			"Credentials": "perf-data"
+		}
+	]
+}

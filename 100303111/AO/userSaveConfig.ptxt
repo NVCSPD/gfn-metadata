@@ -1,0 +1,47 @@
+# ===============================
+# Scraper tool configuration file
+# ===============================
+
+checksum: false
+
+# Name of user that we look for
+# this name will be used for accessing registry HKEY_CURRENT_USER branch
+# and normalization of env variables %USERPROFILE%, %USERNAME%
+targetWindowsUserName: "Kiosk"
+
+storage{
+	snapshotPath: "C:\\asgard\\services\\AutoOnboarder\\snapshot"
+	baselinePath: "C:\\asgard\\services\\AutoOnboarder\\baseline"
+}
+
+##########################
+#                        #
+#      Target Files      #
+#                        #
+##########################
+
+includePaths {
+	path: "%LOCALAPPDATA%\\EpicGamesLauncher\\Saved\\Config\\Windows\\<.+\\.ini>"
+	path: "%LOCALAPPDATA%\\EpicGamesLauncher\\Saved\\Intermediate\\Config\\CoalescedSourceConfigs\\<.+\\.ini>"
+	path: "%LOCALAPPDATA%\\EpicGamesLauncher\\Saved\\Data\\<.+\\.dat>"
+
+	# Cloud manifest path to avoid cloud conflict
+	path: "%LOCALAPPDATA%\\EpicGamesLauncher\\Saved\\Saves\\"
+}
+
+excludePaths {
+}
+
+##########################
+#                        #
+#   Target Registry      #
+#                        #
+##########################
+
+regincludePaths {
+	
+}
+
+regexcludePaths {
+
+}

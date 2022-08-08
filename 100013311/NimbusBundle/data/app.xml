@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>fortnite_gfn_pc</ShortName>
+  <DisplayName>Fortnite</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\NVIDIA_Grid_Bundle\fortnite_gfn_pc\Fortnite\FortniteGame\Binaries\Win64</InstallDirectory>
+  <StreamingCmdLine>start com.epicgames.launcher://apps/Fortnite?action=launch</StreamingCmdLine>
+  <Image>FortniteClient-Win64-Shipping.exe</Image>
+  <Image>EpicGamesLauncher.exe</Image>
+  <StreamingAutomatedLaunch>1</StreamingAutomatedLaunch>
+  <Distributor>EpicGames</Distributor>
+  <Version>grid-bundle</Version>
+</Application>
