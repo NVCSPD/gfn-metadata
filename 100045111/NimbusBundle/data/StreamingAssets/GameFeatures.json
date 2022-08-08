@@ -1,0 +1,47 @@
+{
+    "default_language": "en_US",
+    "multilanguage": [
+        {
+            "code": "en_US",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "de_DE",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "ru_RU",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "fr_FR",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "ko_KR",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        },
+        {
+            "code": "ja_JP",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        }
+    ]
+}

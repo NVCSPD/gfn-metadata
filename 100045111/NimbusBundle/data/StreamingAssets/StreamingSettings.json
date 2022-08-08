@@ -1,0 +1,44 @@
+{
+  "Privileges": "admin",
+  "GameData": [
+    {
+      "VersionName": "grid-bundle",
+      "StreamingDisplayName": "EVE Online",
+      "UniqueId": 100045111,
+      "StreamingCaption": "EVE Online",
+      "StreamingClassName": "EVE Online",
+      "StreamingCommandLine": "eve.exe",
+      "IsAutomatedLaunch": 1,
+      "IsAutomatedExit": 0,
+      "ConsiderAsMultiExecutable": 1,
+      "DefaultStreamingMode": "1280x720@60",
+      "DefaultConsoleMode": "1920x1080@60",
+      "DefaultResolution": "1280x720",
+      "GridExpectedLaunchTimeInSeconds": 120,
+      "Distributor": "Standalone",
+      "GameProcesses": [
+        {
+          "GameProcess": "eve.exe"
+        },
+		{
+          "GameProcess": "evelauncher.exe"
+        },
+		{
+          "GameProcess": "exefile.exe"
+        },
+		{
+          "GameProcess": "updater.exe"
+        }
+      ]
+    }
+  ],
+  "MetaData": {
+    "ControlSchemes": [
+      {
+        "ControlScheme": "SingleGamepad"
+      }
+    ],
+    "ControllerIDScheme": "Zero",
+    "ControlHotPlugSupport": "Yes"
+  }
+}

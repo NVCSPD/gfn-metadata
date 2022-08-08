@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>eve_online_gfn_pc</ShortName>
+  <DisplayName>EVE Online</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\NVIDIA_Grid_Bundle\eve_online_gfn_pc</InstallDirectory>
+  <StreamingCmdLine>eve.exe</StreamingCmdLine>
+  <Image>eve.exe</Image>
+  <Image>evelauncher.exe</Image>
+  <Image>exefile.exe</Image>   
+  <StreamingAutomatedLaunch>1</StreamingAutomatedLaunch>
+  <Distributor>Standalone</Distributor>
+  <Version>grid-bundle</Version>
+</Application>
