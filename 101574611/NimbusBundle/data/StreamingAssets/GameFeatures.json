@@ -1,0 +1,82 @@
+{
+    "default_language": "en_US",
+    "multilanguage": [
+        {
+            "code": "en_US",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "script"
+        },
+        {
+            "code": "fr_FR",
+            "speech": "UNAVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "script"
+        },
+        {
+            "code": "de_DE",
+            "speech": "UNAVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "script"
+        },
+        {
+            "code": "es_ES",
+            "speech": "UNAVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "script"
+        },
+        {
+            "code": "ja_JP",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "script"
+        },
+        {
+            "code": "ko_KR",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "script"
+        },
+        {
+            "code": "pt_PT",
+            "speech": "UNAVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "script"
+        },
+        {
+            "code": "ru_RU",
+            "speech": "UNAVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "script"
+        },
+        {
+            "code": "zh_CN",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "script"
+        },
+        {
+            "code": "zh_TW",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "script"
+        },
+        {
+            "code": "th_TH",
+            "speech": "UNAVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "script"
+        }
+    ]
+}

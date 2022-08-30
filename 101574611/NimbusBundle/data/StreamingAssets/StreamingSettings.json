@@ -1,0 +1,42 @@
+{
+  "Privileges": "admin",
+  "GameData": [
+    {
+      "VersionName": "grid-bundle",
+      "StreamingDisplayName": "Genshin Impact",
+      "UniqueId": 101574611,
+      "StreamingCaption": "Genshin Impact",
+      "StreamingClassName": "Genshin Impact",
+      "StreamingCommandLine": "GenshinImpact.exe mobile=8 -popupwindow",
+      "IsAutomatedLaunch": 0,
+      "IsAutomatedExit": 0,
+      "ConsiderAsMultiExecutable": 0,
+      "DefaultStreamingMode": "1280x720@60",
+      "DefaultConsoleMode": "1920x1080@60",
+      "DefaultResolution": "1280x720",
+      "GridExpectedLaunchTimeInSeconds": 120,
+	  "ForceEarlyStreaming": 1,
+      "Distributor": "Standalone",
+	  "LaunchOptions": {
+          "TOUCH_FRIENDLY": {
+            "Command": "GenshinImpact.exe mobile=7 -popupwindow",
+            "Directory": "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\genshin_impact"
+        }
+      },
+      "GameProcesses": [
+        {
+          "GameProcess": "GenshinImpact.exe"
+        }
+      ]
+    }
+  ],
+  "MetaData": {
+    "ControlSchemes": [
+      {
+        "ControlScheme": "MultiGamepad"
+      }
+    ],
+    "ControllerIDScheme": "Any",
+    "ControlHotPlugSupport": "Yes"
+  }
+}

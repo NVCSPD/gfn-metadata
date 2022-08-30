@@ -1,0 +1,10 @@
+MetaData/FirstRunSnapshot.zip#5
+MetaData/GridInfo.txt#4
+MetaData/InstallScript.zip#8
+MetaData/userSaveConfig.ptxt#7
+StreamingAssets/GameFeatures.json#5
+StreamingAssets/StreamingSettings.json#9
+StreamingAssets/game_script.lua#2
+app.xml#7
+modules/json.lua#1
+streaming_game.lua#6

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>genshin_impact</ShortName>
+  <DisplayName>Genshin Impact</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\NVIDIA_Grid_Bundle\genshin_impact</InstallDirectory>
+  <StreamingCmdLine>GenshinImpact.exe mobile=7 -popupwindow</StreamingCmdLine>
+  <Image>GenshinImpact.exe</Image>
+  <StreamingAutomatedLaunch>0</StreamingAutomatedLaunch>
+  <Distributor>Standalone</Distributor>
+  <Version>grid-bundle</Version>
+</Application>

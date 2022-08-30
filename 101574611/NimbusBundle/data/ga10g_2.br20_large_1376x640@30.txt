@@ -1,0 +1,18 @@
+Resolution;1376x640;ENUM
+Anisotropic Filtering;1x;ENUM
+FPS;60;ENUM
+Bloom;Off;ENUM
+VSync;Off;ENUM
+Subsurface Scattering;Off;ENUM
+Anti-aliasing;Off;ENUM
+Render Resolution;1.0;ENUM
+Environment Detail;Lowest;ENUM
+SFX Quality;Lowest;ENUM
+Volumetric Fog;Off;ENUM
+Reflections;Off;ENUM
+Visual Effects;Lowest;ENUM
+Shadow Quality;Lowest;ENUM
+Display Mode;Windowed;ENUM
+Graphics Quality;Custom;ENUM
+Crowd Density;Low;ENUM
+Co-Op Teammate Effects;Off;ENUM
