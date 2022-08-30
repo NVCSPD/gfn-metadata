@@ -1,0 +1,55 @@
+# ===============================
+# Scraper tool configuration file
+# ===============================
+
+checksum: false
+
+# Name of user that we look for
+# this name will be used for accessing registry HKEY_CURRENT_USER branch
+# and normalization of env variables %USERPROFILE%, %USERNAME%
+targetWindowsUserName: "Kiosk"
+
+storage{
+	snapshotPath: "C:\\asgard\\services\\AutoOnboarder\\snapshot"
+	baselinePath: "C:\\asgard\\services\\AutoOnboarder\\baseline"
+}
+
+##########################
+#                        #
+#      Target Files      #
+#                        #
+##########################
+
+includePaths {   
+   path: "%USERPROFILE%\\AppData\\Local\\DeadByDaylight\\Saved\\"
+   path: "%USERPROFILE%\\AppData\\Local\\UnrealEngine\\"
+   path: "C:\\Program Files (x86)\\Steam\\userdata\\<.*>\\381210\\"	
+}
+
+excludePaths {
+}
+
+##########################
+#                        #
+#   Target Registry      #
+#                        #
+##########################
+
+# Note: All of the registry is included ... except what is listed here.
+
+regincludePaths {
+	path: "HKEY_CURRENT_USER\\Software\\Epic Games\\Unreal Engine\\"
+	path: "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\EasyAntiCheat\\"
+	path: "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Valve\\Steam\\Apps\\CommonRedist\\"
+	path: "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Valve\\Steam\\Apps\\dbd_EAC\\"
+}
+
+regexcludePaths {
+	path: "HKEY_CLASSES_ROOT"
+	path: "HKEY_LOCAL_MACHINE"  
+	path: "HKEY_CURRENT_USER\\Software\\SecuROM"
+	path: "HKEY_CURRENT_USER\\Software\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\Shell"
+	path: "HKEY_CURRENT_USER\\Software\\Microsoft\\DirectInput"
+	path: "HKEY_CURRENT_USER\\Software\\Classes\\Local Settings"
+	path: "HKEY_CURRENT_USER\\Software\\Microsoft"
+}

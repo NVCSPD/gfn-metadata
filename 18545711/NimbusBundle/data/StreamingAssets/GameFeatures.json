@@ -1,0 +1,200 @@
+{
+  "default_language": "en_US",
+  "multilanguage": [
+    {
+      "code": "en_US",
+      "speech": "AVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "fr_FR",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "it_IT",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "de_DE",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "es_ES",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "es_MX",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "ru_RU",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "zh_CN",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "pt_BR",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "th_TH",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "zh_TW",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "ja_JP",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "ko_KR",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    },
+    {
+      "code": "pl_PL",
+      "speech": "UNAVAILABLE",
+      "subtitles": "AVAILABLE",
+      "ux": "AVAILABLE",
+      "set_method": "script"
+    }
+  ],
+  "dlc": [
+    {
+      "id": "1009821",
+      "name": "Dead by Daylight - Ash vs Evil Dead",
+      "shortname": "ash_vs_evil_dead"
+    },
+    {
+      "id": "1009820",
+      "name": "Dead by Daylight - Demise of the Faithful chapter",
+      "shortname": "demise_of_the_faithful_chapter"
+    },
+    {
+      "id": "971790",
+      "name": "Dead by Daylight - Darkness Among Us Chapter",
+      "shortname": "darkness_among_us_chapter"
+    },
+    {
+      "id": "925750",
+      "name": "Dead by Daylight - Shattered Bloodline Chapter",
+      "shortname": "shattered_bloodline_chapter"
+    },
+    {
+      "id": "799200",
+      "name": "Dead by Daylight - Curtain Call Chapter",
+      "shortname": "curtain_call_chapter"
+    },
+    {
+      "id": "530711",
+      "name": "Dead by Daylight - The Halloween® Chapter",
+      "shortname": "the_halloween_chapter"
+    },
+    {
+      "id": "750381",
+      "name": "Dead by Daylight - the Saw® Chapter",
+      "shortname": "the_saw_chapter"
+    },
+    {
+      "id": "700282",
+      "name": "Dead by Daylight - A Nightmare on Elm Street™",
+      "shortname": "a_nightmare_on_elm_street"
+    },
+    {
+      "id": "509060",
+      "name": "Dead by Daylight: The Last Breath Chapter",
+      "shortname": "the_last_breath_chapter"
+    },
+    {
+      "id": "582600",
+      "name": "Dead by Daylight - Spark of Madness Chapter",
+      "shortname": "spark_of_madness_chapter"
+    },
+    {
+      "id": "661770",
+      "name": "Dead by Daylight - A Lullaby for the Dark Chapter",
+      "shortname": "a_lullaby_for_the_dark_chapter"
+    },
+    {
+      "id": "627510",
+      "name": "Dead by Daylight - Charity Case",
+      "shortname": "charity_case"
+    },
+    {
+      "id": "530710",
+      "name": "Dead by Daylight - The 80",
+      "shortname": "the_80s_suitcase"
+    },
+    {
+      "id": "573940",
+      "name": "Dead by Daylight - Left Behind",
+      "shortname": "left_behind"
+    },
+    {
+      "id": "577901",
+      "name": "Dead by Daylight - Headcase",
+      "shortname": "headcase"
+    },
+    {
+      "id": "492140",
+      "name": "Dead by Daylight: Original Soundtrack",
+      "shortname": "original_soundtrack"
+    },
+    {
+      "id": "554380",
+      "name": "Dead by Daylight - The Bloodstained Sack",
+      "shortname": "the_bloodstained_sack"
+    },
+    {
+      "id": "700280",
+      "name": "Dead by Daylight - Leatherface™",
+      "shortname": "leatherface"
+    },
+    {
+      "id": "554381",
+      "name": "Dead by Daylight - Of Flesh and Mud Chapter",
+      "shortname": "of_flesh_and_mud_chapter"
+    }
+  ]
+}

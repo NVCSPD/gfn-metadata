@@ -1,0 +1,57 @@
+{
+    "Privileges": "admin",
+    "GameData": [
+        {
+            "VersionName": "grid-bundle",
+            "StreamingDisplayName": "Dead by Daylight",
+            "UniqueId": 18545711,
+            "StreamingCaption": "DeadByDaylight ",
+            "StreamingClassName": "UnrealWindow",
+            "StreamingCommandLine": "start steam://rungameid/381210",
+            "LaunchOptions": {
+                "Purchase": {
+                    "Command": "start steam://store/381210",
+                    "Directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Dead by Daylight"
+                },
+                "Install": {
+                    "Directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Dead by Daylight",
+                    "Command": "start steam://rungameid/381210"
+                },
+                "GAMEPAD_FRIENDLY": {
+                    "Command": "start steam://rungameid/381210",
+                    "Directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Dead by Daylight"
+                },
+                "Install GAMEPAD_FRIENDLY": {
+                    "Command": "start steam://rungameid/381210",
+                    "Directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Dead by Daylight"
+                }
+            },
+            "IsAutomatedLaunch": 0,
+            "IsAutomatedExit": 0,
+            "DefaultStreamingMode": "1280x720@60",
+            "DefaultConsoleMode": "1920x1080@60",
+            "DefaultResolution": "1280x720",
+            "SteamAppID": 381210,
+            "GridExpectedLaunchTimeInSeconds": 120,
+            "Distributor": "Steam",
+            "ConsiderAsMultiExecutable": 1,
+            "GameProcesses": [
+                {
+                    "GameProcess": "DeadByDaylight-Win64-Shipping.exe"
+                },
+                {
+                    "GameProcess": "Steam.exe"
+                }
+            ]
+        }
+    ],
+    "MetaData": {
+        "ControlSchemes": [
+            {
+                "ControlScheme": "MultiGamepad"
+            }
+        ],
+        "ControllerIDScheme": "Any",
+        "ControlHotPlugSupport": "Yes"
+    }
+}

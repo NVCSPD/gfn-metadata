@@ -1,0 +1,4 @@
+Resolution;1600x900;ENUM
+Display Mode;Full-screen;ENUM
+Quality;High;ENUM
+Rendering Resolution;100%;ENUM

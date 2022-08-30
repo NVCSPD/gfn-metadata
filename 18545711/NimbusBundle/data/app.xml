@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>dead_by_daylight_gfn_pc</ShortName>
+  <DisplayName>Dead by Daylight</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\Steam\steamapps\common\Dead by Daylight</InstallDirectory>
+  <StreamingCmdLine>start steam://rungameid/381210</StreamingCmdLine>
+  <Image>DeadByDaylight-Win64-Shipping.exe</Image>
+  <Image>Steam.exe</Image>
+  <StreamingAutomatedLaunch>0</StreamingAutomatedLaunch>
+  <Distributor>Steam</Distributor>
+  <Version>grid-bundle</Version>
+</Application>
