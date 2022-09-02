@@ -1,2 +1,8 @@
 # Useless and contains private/sensitive information
 **/AO/snapshot
+
+# Private script
+decompile_game_script_lua.sh
+
+# Not actually decompiled [ea_origin]
+100024411/NimbusBundle/data/StreamingAssets/game_script_decompiled.lua
