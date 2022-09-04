@@ -1,0 +1,51 @@
+{
+  "Privileges": "admin",
+  "GameData": [
+    {
+      "VersionName": "grid-bundle",
+      "StreamingDisplayName": "GOG Galaxy Client",
+      "UniqueId": 100022911,
+      "StreamingCaption": "GOG Galaxy Client",
+      "StreamingClassName": "GOG Galaxy Client",
+      "StreamingCommandLine": "GalaxyClient.exe",
+      "IsAutomatedLaunch": 1,
+      "IsAutomatedExit": 1,
+      "DefaultStreamingMode": "1280x720@60",
+      "DefaultConsoleMode": "1920x1080@60",
+      "DefaultResolution": "1280x720",
+      "GridExpectedLaunchTimeInSeconds": 120,
+      "Distributor": "Standalone",
+      "GameProcesses": [
+        {
+          "GameProcess": "GalaxyClient.exe"
+        },
+        {
+          "GameProcess": "GalaxyClientService.exe"
+        },
+        {
+          "GameProcess": "GalaxyClient Helper.exe"
+        },
+        {
+          "GameProcess": "GalaxyCommunication.exe"
+        }
+      ],
+      "TrayItems": [
+        {
+          "Name": "GOG Galaxy",
+          "ProcessName": "GalaxyClient.exe",
+          "WindowClass": "Chrome_WidgetWin_0",
+		  "RestartAppOnRestore": 0
+        }
+      ]
+    }
+  ],
+  "MetaData": {
+    "ControlSchemes": [
+      {
+        "ControlScheme": "SingleGamepad"
+      }
+    ],
+    "ControllerIDScheme": "Zero",
+    "ControlHotPlugSupport": "Yes"
+  }
+}
