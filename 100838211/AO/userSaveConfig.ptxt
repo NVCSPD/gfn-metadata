@@ -1,0 +1,44 @@
+# ===============================
+# Scraper tool configuration file
+# ===============================
+
+checksum: false
+
+# Name of user that we look for
+# this name will be used for accessing registry HKEY_CURRENT_USER branch
+# and normalization of env variables %USERPROFILE%, %USERNAME%
+targetWindowsUserName: "Kiosk"
+
+storage{
+	snapshotPath: "C:\\asgard\\services\\AutoOnboarder\\snapshot"
+	baselinePath: "C:\\asgard\\services\\AutoOnboarder\\baseline"
+}
+
+##########################
+#                        #
+#      Target Files      #
+#                        #
+##########################
+
+includePaths {
+	path: "%USERPROFILE%\\Saved Games\\CD Projekt Red\\Cyberpunk 2077\\"
+	path: "%USERPROFILE%\\AppData\\Local\\CD Projekt Red\\Cyberpunk 2077\\UserSettings.json"
+}
+
+excludePaths {
+
+}
+
+##########################
+#                        #
+#   Target Registry      #
+#                        #
+##########################
+
+regincludePaths {
+
+}
+
+regexcludePaths {
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>cyberpunk_2077_gog_gfn_pc</ShortName>
+  <DisplayName>Cyberpunk 2077 - GoG</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\GOG Galaxy</InstallDirectory>
+  <StreamingCmdLine>GalaxyClient.exe /command=runGame /gameId=1423049311 /singleGameMode platform=nvidia-geforce-now /runWithoutUpdating</StreamingCmdLine>
+  <Image>GalaxyClient.exe</Image>
+  <Image>GalaxyClientService.exe</Image>
+  <Image>GalaxyClient Helper.exe</Image>
+  <Image>GalaxyCommunication.exe</Image>
+  <StreamingAutomatedLaunch>1</StreamingAutomatedLaunch>
+  <Distributor>GoG</Distributor>
+  <Version>grid-bundle</Version>
+</Application>

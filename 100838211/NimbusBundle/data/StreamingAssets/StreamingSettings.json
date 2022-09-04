@@ -1,0 +1,49 @@
+{
+  "Privileges": "admin",
+  "GameData": [
+    {
+      "VersionName": "grid-bundle",
+      "StreamingDisplayName": "Cyberpunk 2077 - GoG",
+      "UniqueId": 100838211,
+      "StreamingCaption": "Cyberpunk 2077 - GoG",
+      "StreamingClassName": "Cyberpunk 2077 - GoG",
+      "StreamingCommandLine": "GalaxyClient.exe /command=runGame /gameId=1423049311 /singleGameMode platform=nvidia-geforce-now /runWithoutUpdating",
+      "IsAutomatedLaunch": 1,
+      "IsAutomatedExit": 1,
+      "ForceEarlyStreaming": 1,
+      "ConsiderAsMultiExecutable": 1,
+      "IsOsHdrSupported": 1,
+	  "IsHdrSupported": 1,
+      "DefaultStreamingMode": "1280x720@60",
+      "DefaultConsoleMode": "1920x1080@60",
+      "DefaultResolution": "1280x720",
+      "GridExpectedLaunchTimeInSeconds": 120,
+      "Distributor": "GoG",
+      "KeepFocusOnProcess": "Cyberpunk2077.exe",
+      "VoiceChatSupport": "No",
+      "GameProcesses": [
+        {
+          "GameProcess": "GalaxyClient.exe"
+        },
+        {
+          "GameProcess": "GalaxyClientService.exe"
+        },
+        {
+          "GameProcess": "GalaxyClient Helper.exe"
+        },
+        {
+          "GameProcess": "GalaxyCommunication.exe"
+        }
+      ]
+    }
+  ],
+  "MetaData": {
+    "ControlSchemes": [
+      {
+        "ControlScheme": "MultiGamepad"
+      }
+    ],
+    "ControllerIDScheme": "Any",
+    "ControlHotPlugSupport": "Yes"
+  }
+}

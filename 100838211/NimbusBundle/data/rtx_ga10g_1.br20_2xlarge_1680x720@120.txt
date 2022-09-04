@@ -1,0 +1,32 @@
+Resolution;1680x720;ENUM
+Dynamic FidelityFX CAS;Off;ENUM
+Static FidelityFX CAS;Off;ENUM
+Level of Detail (LOD);High;ENUM
+Texture Quality;High;ENUM
+Subsurface Scattering Quality;High;ENUM
+Maximum FPS Value;60;INT
+Cascaded Shadows Resolution;High;ENUM
+Local Shadow Mesh Quality;High;ENUM
+Slow HDD Mode;On;ENUM
+Cascaded Shadows Range;High;ENUM
+Improved Facial Lighting Geometry;On;ENUM
+Mirror Quality;High;ENUM
+Contact Shadows;On;ENUM
+NVIDIA RTX: Ray-Traced Reflections;On;DRVENUM
+NVIDIA RTX: Ray-Traced Lighting;Medium;DRVENUM
+VSync;Off;ENUM
+Color Precision;High;ENUM
+Max Dynamic Decals;Ultra;ENUM
+Distant Shadows Resolution;High;ENUM
+Volumetric Clouds Quality;Ultra;ENUM
+Ambient Occlusion;High;ENUM
+NVIDIA RTX: DLSS;Performance;DRVENUM
+Screen Space Reflections Quality;Psycho;ENUM
+Maximum FPS;On;ENUM
+NVIDIA RTX: Ray-Traced Shadows;On;DRVENUM
+Volumetric Fog Resolution;Ultra;ENUM
+Display Mode;Full-screen;ENUM
+Crowd Density;High;ENUM
+Anisotropy;16;ENUM
+Local Shadow Quality;High;ENUM
+NVIDIA RTX: Ray Tracing;On;DRVENUM
