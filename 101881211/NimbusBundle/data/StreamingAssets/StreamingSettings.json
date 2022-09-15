@@ -1,0 +1,35 @@
+{
+  "Privileges": "admin",
+  "GameData": [
+    {
+      "VersionName": "grid-bundle",
+      "StreamingDisplayName": "cssc_12",
+      "UniqueId": 101881211,
+      "StreamingCaption": "cssc_12",
+      "StreamingClassName": "cssc_12",
+      "StreamingCommandLine": "",
+      "IsAutomatedLaunch": 0,
+      "IsAutomatedExit": 0,
+      "ConsiderAsMultiExecutable": 0,
+      "DefaultStreamingMode": "1280x720@60",
+      "DefaultConsoleMode": "1920x1080@60",
+      "DefaultResolution": "1280x720",
+      "GridExpectedLaunchTimeInSeconds": 120,
+      "Distributor": "Standalone",
+      "GameProcesses": [
+        {
+          "GameProcess": ""
+        }
+      ]
+    }
+  ],
+  "MetaData": {
+    "ControlSchemes": [
+      {
+        "ControlScheme": "MultiGamepad"
+      }
+    ],
+    "ControllerIDScheme": "Any",
+    "ControlHotPlugSupport": "Yes"
+  }
+}

@@ -1,0 +1,2 @@
+Resolution;3840x2160;ENUM
+Display Mode;Full-screen;ENUM

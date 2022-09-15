@@ -1,0 +1,13 @@
+Resolution;1280x800;ENUM
+Display Filter;On;ENUM
+Upscale;Off;ENUM
+Depth of Field;On;ENUM
+Remove Faraway Effects;Off;ENUM
+Texture Quality;High;ENUM
+Faraway NPCs;On;ENUM
+Display Mode;Full-screen;ENUM
+SSAO;On;ENUM
+Remove Others Effects;Off;ENUM
+Graphics Quality;Medium;ENUM
+Faraway Objects;Off;ENUM
+Anti-aliasing;On;ENUM

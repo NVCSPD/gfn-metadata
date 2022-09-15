@@ -1,0 +1,2 @@
+launchasadmin = 0
+gameRootPath = "C:\\Program Files (x86)\\NVIDIA_Grid_Bundle\\cssc_12"

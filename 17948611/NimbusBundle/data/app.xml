@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>black_desert_online_steam_gfn_pc</ShortName>
+  <DisplayName>Black Desert Online</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\Steam\steamapps\common\Black Desert Online</InstallDirectory>
+  <StreamingCmdLine>start steam://rungameid/582660</StreamingCmdLine>
+  <Image>BlackDesert64.exe</Image>
+  <Image>Steam.exe</Image>
+  <StreamingAutomatedLaunch>0</StreamingAutomatedLaunch>
+  <Distributor>Steam</Distributor>
+  <Version>grid-bundle</Version>
+</Application>

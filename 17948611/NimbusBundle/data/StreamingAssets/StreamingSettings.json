@@ -1,0 +1,56 @@
+{
+    "Privileges": "admin",
+    "GameData": [
+        {
+            "VersionName": "grid-bundle",
+            "StreamingDisplayName": "Black Desert Online",
+            "UniqueId": 17948611,
+            "StreamingCaption": "BLACK DESERT",
+            "StreamingClassName": "BlackDesertWindowClass",
+            "StreamingCommandLine": "start steam://rungameid/582660",
+            "LaunchOptions": {
+                "Purchase": {
+                    "Command": "start steam://store/582660",
+                    "Directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Black Desert Online"
+                },
+                "Install": {
+                    "Directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Black Desert Online",
+                    "Command": "start steam://rungameid/582660"
+                },
+                "GAMEPAD_FRIENDLY": {
+                    "Command": "start steam://rungameid/582660",
+                    "Directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Black Desert Online"
+                },
+                "Install GAMEPAD_FRIENDLY": {
+                    "Command": "start steam://rungameid/582660",
+                    "Directory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Black Desert Online"
+                }
+            },
+            "IsAutomatedLaunch": 0,
+            "IsAutomatedExit": 0,
+            "ConsiderAsMultiExecutable": 1,
+            "DefaultStreamingMode": "1280x720@60",
+            "DefaultConsoleMode": "1920x1080@60",
+            "DefaultResolution": "1280x720",
+            "GridExpectedLaunchTimeInSeconds": 120,
+            "Distributor": "Steam",
+            "GameProcesses": [
+                {
+                    "GameProcess": "BlackDesert64.exe"
+                },
+                {
+                    "GameProcess": "Steam.exe"
+                }
+            ]
+        }
+    ],
+    "MetaData": {
+        "ControlSchemes": [
+            {
+                "ControlScheme": "SingleGamepad"
+            }
+        ],
+        "ControllerIDScheme": "Zero",
+        "ControlHotPlugSupport": "Yes"
+    }
+}

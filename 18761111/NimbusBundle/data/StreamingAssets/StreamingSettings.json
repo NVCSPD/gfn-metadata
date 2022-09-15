@@ -1,0 +1,35 @@
+{
+  "Privileges": "admin",
+  "GameData": [
+    {
+      "VersionName": "grid-bundle",
+      "StreamingDisplayName": "Uplay",
+      "UniqueId": 18761111,
+      "StreamingCaption": "Uplay caption",
+      "StreamingClassName": "Uplay classname",
+      "StreamingCommandLine": "upc.exe",
+      "IsAutomatedLaunch": 0,
+      "IsAutomatedExit": 1,
+      "DefaultStreamingMode": "1280x720@60",
+      "DefaultConsoleMode": "1920x1080@60",
+      "DefaultResolution": "1280x720",
+      "ConsiderAsMultiExecutable": 1,
+      "GridExpectedLaunchTimeInSeconds": 120,
+      "Distributor": "Uplay",
+      "GameProcesses": [
+        {
+          "GameProcess": "upc.exe"
+        }
+      ],
+      "TrayItems": [
+        {
+          "Name": "Ubisoft Connect",
+          "ProcessName": "upc.exe",
+          "WindowClass": "NotificationsViewClassName",
+          "RestartAppOnRestore": 1,
+		  "SuppressBySameItem": 0
+        }
+      ]
+    }
+  ]
+}

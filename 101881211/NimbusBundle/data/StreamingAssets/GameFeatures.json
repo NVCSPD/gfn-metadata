@@ -1,0 +1,12 @@
+{
+    "default_language": "en_US",
+    "multilanguage": [
+        {
+            "code": "en_US",
+            "speech": "AVAILABLE",
+            "subtitles": "AVAILABLE",
+            "ux": "AVAILABLE",
+            "set_method": "global"
+        }
+    ]
+}

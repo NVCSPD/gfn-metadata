@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>steamworks_common_redistributables</ShortName>
+  <DisplayName>Steamworks Common Redistributables</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\Steam\steamapps</InstallDirectory>
+  <StreamingCmdLine>start cmd</StreamingCmdLine>
+  <Image>cmd.exe</Image>
+  <StreamingAutomatedLaunch>0</StreamingAutomatedLaunch>
+  <Distributor>Standalone</Distributor>
+  <Version>grid-bundle</Version>
+</Application>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>cssc_12</ShortName>
+  <DisplayName>cssc_12</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\NVIDIA_Grid_Bundle\cssc_12</InstallDirectory>
+  <StreamingCmdLine>dummy.exe</StreamingCmdLine>
+  <Image>C:\Program Files (x86)\NVIDIA_Grid_Bundle\cssc_12\dummy.exe</Image>
+  <StreamingAutomatedLaunch>0</StreamingAutomatedLaunch>
+  <Distributor>Standalone</Distributor>
+  <Version>grid-bundle</Version>
+</Application>

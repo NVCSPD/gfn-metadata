@@ -1,0 +1,13 @@
+Resolution;1920x1080;ENUM
+Display Filter;On;ENUM
+Upscale;Off;ENUM
+Depth of Field;Off;ENUM
+Remove Faraway Effects;Off;ENUM
+Texture Quality;Medium;ENUM
+Faraway NPCs;On;ENUM
+Display Mode;Full-screen;ENUM
+SSAO;Off;ENUM
+Remove Others Effects;Off;ENUM
+Graphics Quality;Medium;ENUM
+Faraway Objects;Off;ENUM
+Anti-aliasing;Off;ENUM

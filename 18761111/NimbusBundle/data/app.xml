@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Application>
+  <Id>1</Id>
+  <ShortName>uplay</ShortName>
+  <DisplayName>Uplay</DisplayName>
+  <InstallDirectory>C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher</InstallDirectory>
+  <StreamingCmdLine>upc.exe</StreamingCmdLine>
+  <Image>upc.exe</Image>
+  <StreamingAutomatedLaunch>0</StreamingAutomatedLaunch>
+  <Distributor>Uplay</Distributor>
+  <Version>grid-bundle</Version>
+</Application>

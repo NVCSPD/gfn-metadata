@@ -1,0 +1,35 @@
+{
+  "Privileges": "admin",
+  "GameData": [
+    {
+      "VersionName": "grid-bundle",
+      "StreamingDisplayName": "Steamworks Common Redistributables",
+      "UniqueId": 100192311,
+      "StreamingCaption": "Steamworks Common Redistributables",
+      "StreamingClassName": "Steamworks Common Redistributables",
+      "StreamingCommandLine": "start cmd",
+      "IsAutomatedLaunch": 0,
+      "IsAutomatedExit": 0,
+      "ConsiderAsMultiExecutable": 0,
+      "DefaultStreamingMode": "1280x720@60",
+      "DefaultConsoleMode": "1920x1080@60",
+      "DefaultResolution": "1280x720",
+      "GridExpectedLaunchTimeInSeconds": 120,
+      "Distributor": "Standalone",
+      "GameProcesses": [
+        {
+          "GameProcess": "cmd.exe"
+        }
+      ]
+    }
+  ],
+  "MetaData": {
+    "ControlSchemes": [
+      {
+        "ControlScheme": "SingleGamepad"
+      }
+    ],
+    "ControllerIDScheme": "Zero",
+    "ControlHotPlugSupport": "Yes"
+  }
+}

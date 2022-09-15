@@ -1,0 +1,51 @@
+# ===============================
+# Scraper tool configuration file
+# ===============================
+
+checksum: false
+
+# Name of user that we look for
+# this name will be used for accessing registry HKEY_CURRENT_USER branch
+# and normalization of env variables %USERPROFILE%, %USERNAME%
+targetWindowsUserName: "Kiosk"
+
+storage{
+	snapshotPath: "C:\\asgard\\services\\AutoOnboarder\\snapshot"
+	baselinePath: "C:\\asgard\\services\\AutoOnboarder\\baseline"
+}
+
+##########################
+#                        #
+#      Target Files      #
+#                        #
+##########################
+
+includePaths {
+	path: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Black Desert Online\\launcher.config"
+	path: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Black Desert Online\\Resource.ini"
+	path: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Black Desert Online\\service.ini"
+	path: "%USERPROFILE%\\AppData\\Local\\Black Desert Online Steam Launcher\\"
+	path: "%USERPROFILE%\\Documents\\Black Desert\\GameOption.txt"
+	path: "%USERPROFILE%\\Documents\\Black Desert\\UserCache\\"
+}
+
+excludePaths {
+	path: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Black Desert Online\\bin64\\host\\disk_cache\\"
+  path: "%USERPROFILE%\\AppData\\Local\\Black Desert Online Steam Launcher\\cache\\"
+	path: "%USERPROFILE%\\AppData\\Local\\Black Desert Online Steam Launcher\\QtWebEngine\\Default\\GPUCache\\"
+}
+
+##########################
+#                        #
+#   Target Registry      #
+#                        #
+##########################
+
+regincludePaths {
+	path: "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\582660\\"
+	path: "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Valve\\Steam\\pps\\CommonRedist\\"
+}
+
+regexcludePaths {
+
+}

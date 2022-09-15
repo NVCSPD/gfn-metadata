@@ -1,0 +1,7 @@
+launchasadmin = 0
+gameRootPath = "C:\\Program Files (x86)\\Ubisoft\\Ubisoft Game Launcher"
+gameLogPath = C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\logs\*.*
+gameLogPath = C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log
+gameLogPath = C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\Installed_files.txt
+gameLogPath = C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\version.txt
+signingCertificate = install\R6S.cer
